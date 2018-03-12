@@ -1,0 +1,244 @@
+/*======== shoppingCart===== */
+$color1:#eb1151;
+#shopping-con{
+    .w{
+        .tit{
+            p{
+                font-size:16px;
+                padding:20px 0;
+                span{
+                    color:$color1;
+                }
+            }
+            ul{
+                border-bottom:1px solid #ccc;
+                overflow: hidden;
+                li{
+                    float: left;
+                    width:80px;
+                    height:30px;
+                    line-height:30px;
+                    text-align:center;
+                    font-size:16px;
+                    border:1px solid #ccc;
+                    border-bottom: 0;
+                    cursor: pointer;
+                }
+                .titstyle{
+                    color:#fff;
+                    background: $color1;
+                    border:1px solid $color1;
+                    border-bottom:0;
+                }
+            }
+        }
+        .goods{
+            border:1px solid #ccc;
+            border-bottom: 0;
+            margin-top:15px;
+            .goodstit{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #ccc;
+                li{
+                    height:50px;
+                    line-height:50px;
+                    font-size:14px;
+                    font-weight:bold;
+                    text-align:center;
+                }
+                li:first-of-type{
+                    margin-left: 30px;
+                    position: relative;
+                    input{
+                        margin-right:5px;
+                        position: absolute;
+                        top:18px;
+                        left:-15px;
+                    }
+                }
+                li:last-of-type{
+                    margin-right: 50px;
+                }
+            }
+            .goodsbody{
+                li{
+                    div:nth-of-type(1){
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-bottom: 1px solid #ccc;
+                        font-size: 16px;
+                        padding:10px 0;
+                        p:nth-of-type(1){
+                            margin-left:30px;
+                            position: relative;
+                            img{
+                                width:85px;
+                                height:85px;
+                                border:1px solid #ccc;
+                                cursor: pointer;
+                                &:hover{
+                                    border:1px solid $color1;
+                                }
+                            }
+                            span{
+                                display: block;
+                                width:87px;
+                                height: 20px;
+                                background: $color1;
+                                color:#fff;
+                                text-align: center;
+                                margin-top: 8px;
+                            }
+                            input{
+                                position: absolute;
+                                left:-15px;
+                                top:0px;
+                            }
+                        }
+                        p:last-of-type{
+                            margin-right: 45px;
+                            color:#009cff;
+                            cursor: pointer;
+                        }
+                        p:nth-of-type(3){
+                            padding-left: 15px;
+                        }
+                        p:nth-of-type(4){
+                            margin-right:70px;
+                            color:$color1;
+                        }
+                    }
+                    div:nth-of-type(2){
+                        font-size:14px;
+                        border-bottom: 1px solid #ccc;
+                        ul:nth-of-type(1){
+                            margin-top:20px;
+                            overflow:hidden;
+                            li{
+                                float:left;
+                            }
+                            li:nth-of-type(1){
+                                margin-left: 150px;
+                            }
+                            li:nth-of-type(2){
+                                margin-left: 120px;
+                            }
+                            li:nth-of-type(3){
+                                margin-left: 195px;
+                                p{
+                                    float: left;
+                                    text-align: center;
+                                }
+                                p:nth-of-type(1){
+                                    width:20px;
+                                    height: 20px;
+                                    background: #fff;
+                                    border:1px solid #ccc;
+                                    border-right: 0;
+                                    cursor: pointer;
+                                }
+                                p:nth-of-type(2){
+                                    height: 20px;
+                                    border:1px solid #ccc;
+                                    width:70px;
+                                    background: #f9f9f9;
+                                }
+                                p:nth-of-type(3){
+                                    width:20px;
+                                    height: 20px;
+                                    background: #fff;
+                                    border:1px solid #ccc;
+                                    border-left: 0;
+                                    cursor: pointer;
+                                }
+                            }
+                            li:nth-of-type(4){
+                                color:$color1;
+                                font-size: 18px;
+                                margin-left: 100px;
+                            }
+                            li:last-of-type{
+                                cursor: pointer;
+                                color: #009cff;
+                                margin-left: 215px;
+                                font-size: 16px;
+                            }
+                        }
+                        ul:nth-of-type(2){
+                            overflow: hidden;
+                            padding:30px 0;
+                            li{
+                                float: left;
+                            }
+                            li:first-of-type{
+                                font-size:18px;
+                                margin-left:540px;
+                                span{
+                                    color:$color1;
+                                }
+                            }
+                            li:last-of-type{
+                                font-size:18px;
+                                margin-left:155px;
+                                span{
+                                    color:$color1;
+                                    font-weight: bold;
+                                    font-size: 20px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        .goodscount{
+                margin:20px 0;
+                height: 64px;
+                border:1px solid #ccc;
+                background: #f6f6f6;
+                p{
+                    float: left;
+                    height: 64px;
+                    line-height: 64px;
+                }
+                p:nth-of-type(1){
+                    margin-left: 30px;
+                }
+                p:nth-of-type(2){
+                    margin-left: 40px;
+                    cursor: pointer;
+                    &:hover{
+                        color:$color1;
+                    }
+                }
+                p:nth-of-type(3){
+                    font-size:18px;
+                    span{
+                        color:$color1;
+                        font-weight: bold;
+                    }
+                    margin-left:50px;
+                }
+                p:nth-of-type(4){
+                    margin-left: 350px;
+                    span{
+                        font-size: 18px;
+                        color:$color1;
+                        font-weight: bold;
+                    }
+                }
+                p:last-of-type{
+                    width: 200px;
+                    background: $color1;
+                    font-size: 24px;
+                    color:#fff;
+                    text-align: center;
+                    float:right;
+                    cursor: pointer;
+                }
+        }
+    }
+}

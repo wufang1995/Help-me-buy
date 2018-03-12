@@ -1,0 +1,254 @@
+//login and register
+/* =================login-header  and register================== */
+#login-header{
+    border-bottom:1px solid #ccc;
+    overflow: hidden;
+    padding:25px 0px 20px;
+    div{
+        width:1080px;
+        margin:0 auto;
+        >ul{
+            >li{
+                float: left;
+            }
+            ul{
+                float:right;
+                padding-top:10px;
+                li{
+                    margin-left: 38px;
+                    font: 18px "Microsoft YaHei";
+                    color: #333;
+                    background:url(../images/ucenter_icons.png) no-repeat;
+                    height:38px;
+                    line-height:38px;
+                    display: inline-block;
+                    padding-left:50px;
+                }
+                li:nth-of-type(2){
+                    background-position:0px -40px;
+                }
+            }
+        }
+    }
+}
+/* =================login-con================== */
+#login-con{
+    width:1080px;
+    padding:70px 0px;
+    overflow:hidden;
+    margin:0 auto;
+    div:nth-of-type(1){
+        float:left;
+        width: 550px;
+        height: 370px;
+        padding: 0 0 0 35px;
+        img{
+            width:100%;
+        }
+    }
+    div:nth-of-type(2){
+        float:right;
+        width: 340px;
+        padding-left:60px;
+        p:nth-of-type(1){
+            font-size:14px;
+            color:#333;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        input:nth-of-type(1){
+            width:324px;
+            height:30px;
+            line-height:30px;
+            text-indent:3px;
+            margin-bottom:50px;
+        }
+        input:nth-of-type(2){
+            width:324px;
+            height:30px;
+            line-height:30px;
+            text-indent:3px;
+            margin-bottom:50px;
+        }
+        button{
+            display:block;
+            width:328px;
+            height:30px;
+            line-height:30px;
+            background-color: #ea094b;
+            outline:none;
+            color:#fff;
+            cursor:pointer;
+            border:0;
+            margin-bottom:50px;
+        }
+        ul{
+            overflow:hidden;
+            width:328px;
+            li:nth-of-type(1){
+                float:left;
+            }
+            li:nth-of-type(2){
+                float:right;
+                a{
+                    color:red;
+                }
+            }
+        }
+    }
+}
+/* =================register-con================== */
+#register-con{
+    width: 1080px;
+    margin:0 auto;
+    padding:70px 0px;
+    ul{
+        width:660px;
+        height:30px;
+        margin:0 auto;
+        margin-bottom:50px;
+        li{
+            float:left;
+            height:30px;
+            width:33.3%;
+            text-align:center;
+            line-height:30px;
+            font-size:18px;
+            color:#fff;
+        }
+        li:nth-of-type(1){
+            background:url(../images/navigate-right-active.png);
+        }
+        li:nth-of-type(2){
+            background:url(../images/navigate-right2.png);
+        }
+        li:nth-of-type(3){
+            background:url(../images/navigate-right3.png);
+        }
+    }
+    p:nth-of-type(1){
+        text-align:center;
+        font-size:14px;
+        padding-bottom:10px;
+        padding-left:305px;
+        a{
+            color:red;
+            margin-left:5px;
+        }
+    }
+    div:nth-of-type(1){
+        font-size:16px;
+        width:430px;
+        margin:0 auto;
+        input{
+            text-indent:3px;
+            margin-left:30px;
+            width:325px;
+            height:30px;
+        }
+    }
+    div:nth-of-type(2){
+        margin:0 auto;
+        width:430px;
+        font-size:16px;
+        margin-top:40px;
+        position:relative;
+        input{
+            text-indent:3px;
+            width:150px;
+            height:30px;
+        }
+        img{
+            display:inline-block;
+            margin-left:20px;
+            position:absolute;
+        }
+        a{
+            margin-left:115px;
+            font-size:14px;
+        }
+    }
+    div:nth-of-type(3){
+        margin:0 auto;
+        width:430px;
+        font-size:16px;
+        margin-top:40px;
+        input{
+            text-indent:3px;
+            width:150px;
+            height:30px;
+            background:#e4e4e4;
+            outline:none;
+            border:1px solid #ccc;
+        }
+        button{
+            width:150px;
+            height:34px;
+            border:1px solid #ea094b;
+            color:#ea094b;
+            outline:none;
+            background:#fff;
+            margin-left:20px;
+            cursor:pointer;
+        }
+    }
+    >button{
+        margin:0 auto;
+        display:block;
+        width:150px;
+        height:34px;
+        outline:none;
+        cursor:pointer;
+        color:#fff;
+        border:0;
+        background:#ccc;
+        margin-top:40px;
+    }
+    p:nth-of-type(2){
+        margin-top:40px;
+        text-align:center;
+        font-size:14px;
+    }
+}
+
+/* =====================提示弹窗  style========================== */
+#hit-window{
+    width:300px;
+    height: 180px;
+    background:#fff;
+    position:fixed;
+    text-align: center;
+    font-size:16px;
+    z-index: 6;
+}
+#hit-window .top{
+    height: 38px;
+    background: #eb1151;
+    line-height: 38px;
+    text-align: left;
+    text-indent: 10px;
+    color:#fff;
+}
+#hit-window .middle{
+    text-align: center;
+    color: #2b9bc5;
+    padding:20px 0;
+}
+#hit-window .bottom{
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    width:100px;
+    height: 25px;
+    background:#eb1151 ;
+    border-radius: 3px;
+    display: inline-block;
+    cursor:pointer;
+    &:hover{
+        background:rgb(204,0,0);
+    }
+}
+#mark{ position: absolute; left: 0; top: 0; background: rgba(0,0,0,0.5); z-index: 5;}
+
+
+
